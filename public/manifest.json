@@ -4,8 +4,7 @@
   "version": "0.0.1",
   "content_scripts": [
     {
-      "matches": ["https://blank.org/"],
-      "run_at": "document_end",
+      "matches": ["http://*/*", "https://*/*"],
       "js": [],
       "css": [],
       "media": []
